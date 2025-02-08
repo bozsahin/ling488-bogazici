@@ -1,5 +1,5 @@
-# ling487-bogazici
-Ling 48: Exploring Natural Languages by Modeling (Bogazici Linguistics elective course)
+# ling488-bogazici
+Ling 488: Exploring Natural Languages by Modeling (Bogazici Linguistics elective course)
 
 This is the web page of the course when I teach it.
 
