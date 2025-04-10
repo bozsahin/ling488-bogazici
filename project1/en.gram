@@ -1,0 +1,19 @@
+% mini grammar for English assuming it is SVO
+
+% verbs  
+
+knows | v :: (s\np)/^np : \x\y.know x y
+knows | v :: (s\np)/^s : \s\x.know s x
+loves | v :: (s\np)/^np : \x\y.love x y
+arrives | v :: s\np : \z.arrive z
+gives | v :: (s\np)/^np/^np : \x.\y.\z.give y x z
+
+% NP arguments -- no type-raising
+
+John | n :: np : john
+Mary | n :: np : mary
+
+% nouns
+
+book | n ::  n : book
+the  | det :: np/n : \x.def x

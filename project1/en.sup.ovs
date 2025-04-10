@@ -1,0 +1,10 @@
+John loves Mary : love john mary
+Mary loves John : love mary john
+John knows Mary : know john mary
+Mary knows John: know mary john
+John  loves Mary knows Mary : know (love john mary) mary
+Mary loves John  knows John : know (love mary john) john
+arrives John: arrive john
+arrives Mary: arrive mary
+the book gives Mary John: give mary (def book) john
+the book gives John Mary : give john (def book) mary
