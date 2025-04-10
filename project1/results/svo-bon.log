@@ -1,6 +1,6 @@
 ======= Log file ============
 I am called as: /home/bozsahin/myrepos/thebench/src/bench.train.sh 4000 2000 /var/tmp/thebench/en.gram.src /var/tmp/thebench/en.sup.svo.sup 10 0.5 1.1 /var/tmp/thebench/svo-bon beam-on
-            at: Thu Apr 10 02:31:55 PM +03 2025
+            at: Thu Apr 10 03:29:14 PM +03 2025
             in: bozsahin-macbookpro111
 Log goes to   : /var/tmp/thebench/svo-bon.log
 I will call sbcl as: sbcl --dynamic-space-size 4000
@@ -63,12 +63,12 @@ OOV error: no grammar entry for john! Exiting without parse.
 
 update-model Done.
 Evaluation took:
-  0.016 seconds of real time
-  0.014855 seconds of total run time (0.014855 user, 0.000000 system)
-  93.75% CPU
+  0.033 seconds of real time
+  0.032086 seconds of total run time (0.032086 user, 0.000000 system)
+  96.97% CPU
   6 forms interpreted
-  35,790,627 processor cycles
-  2,519,744 bytes consed
+  78,030,303 processor cycles
+  5,661,296 bytes consed
   
 
 *BEAMP* : T
@@ -96,13 +96,18 @@ Model parameters before and after training
 ================================================
 key   elm             initial  final    diff 
 ------------------------------------------------
-811688 knows             1.0      1.0  (     0.0)
-324815 knows             1.0      1.0  (     0.0)
-939619 loves             1.0      1.0  (     0.0)
-529323 arrives           1.0      1.0  (     0.0)
-566430 gives             1.0      1.0  (     0.0)
-200157 John              1.0      1.0  (     0.0)
-696836 Mary              1.0      1.0  (     0.0)
-744767 book              1.0      1.0  (     0.0)
-574223 the               1.0      1.0  (     0.0)
+613263 knows             1.0  3.31081  ( 2.31081)
+448697 knows             1.0 -1.31081  (-2.31081)
+870595 knows             1.0 2.997502  (1.997502)
+566507 knows             1.0 -.997502  ( -1.9975)
+789786 loves             1.0 4.794422  (3.794422)
+650697 loves             1.0 -2.79442  (-3.79442)
+46171 arrives           1.0 2.188956  (1.188956)
+534992 arrives           1.0 -.188956  (-1.18896)
+887953 gives             1.0 3.160928  (2.160928)
+220449 gives             1.0 -1.16093  (-2.16093)
+191657 John              1.0      1.0  (     0.0)
+497492 Mary              1.0      1.0  (     0.0)
+978439 book              1.0      1.0  (     0.0)
+514941 the               1.0      1.0  (     0.0)
 ================================================

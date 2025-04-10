@@ -3,10 +3,15 @@
 % verbs  
 
 knows | v :: (s\np)/^np : \x\y.know x y
+knows | v :: (s\np)/^np : \x\y.hit x y % distractor
 knows | v :: (s\np)/^s : \s\x.know s x
+knows | v :: (s\np)/^s : \s\x.see s x % distractor
 loves | v :: (s\np)/^np : \x\y.love x y
+loves | v :: (s\np)/^np : \x\y.say x y % distractor
 arrives | v :: s\np : \z.arrive z
+arrives | v :: s\np : \z.walk z % distractor
 gives | v :: (s\np)/^np/^np : \x.\y.\z.give  x y z
+gives | v :: (s\np)/^np/^np : \x.\y.\z.show  x y z % distractor
 
 % NP arguments -- no type-raising
 
