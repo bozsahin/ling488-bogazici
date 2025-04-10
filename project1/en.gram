@@ -6,7 +6,7 @@ knows | v :: (s\np)/^np : \x\y.know x y
 knows | v :: (s\np)/^s : \s\x.know s x
 loves | v :: (s\np)/^np : \x\y.love x y
 arrives | v :: s\np : \z.arrive z
-gives | v :: (s\np)/^np/^np : \x.\y.\z.give y x z
+gives | v :: (s\np)/^np/^np : \x.\y.\z.give  x y z
 
 % NP arguments -- no type-raising
 

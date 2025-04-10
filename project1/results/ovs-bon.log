@@ -1,6 +1,6 @@
 ======= Log file ============
 I am called as: /home/bozsahin/myrepos/thebench/src/bench.train.sh 4000 2000 /var/tmp/thebench/en.gram.src /var/tmp/thebench/en.sup.ovs.sup 10 0.5 1.1 /var/tmp/thebench/ovs-bon beam-on
-            at: Thu Apr 10 01:46:25 PM +03 2025
+            at: Thu Apr 10 02:31:55 PM +03 2025
             in: bozsahin-macbookpro111
 Log goes to   : /var/tmp/thebench/ovs-bon.log
 I will call sbcl as: sbcl --dynamic-space-size 4000
@@ -42,11 +42,11 @@ Supervision file loaded: /var/tmp/thebench/en.sup.ovs.sup
 update-model Done.
 Evaluation took:
   0.013 seconds of real time
-  0.013565 seconds of total run time (0.013519 user, 0.000046 system)
-  107.69% CPU
+  0.010613 seconds of total run time (0.010613 user, 0.000000 system)
+  84.62% CPU
   6 forms interpreted
-  32,694,615 processor cycles
-  2,453,808 bytes consed
+  25,618,092 processor cycles
+  2,028,256 bytes consed
   
 
 *BEAMP* : T
@@ -74,13 +74,13 @@ Model parameters before and after training
 ================================================
 key   elm             initial  final    diff 
 ------------------------------------------------
-987276 knows             1.0 -3.62162  (-4.62162)
-253895 knows             1.0      1.0  (     0.0)
-129907 loves             1.0 -4.80466  (-5.80466)
-816763 arrives           1.0      1.0  (     0.0)
-574030 gives             1.0 -3.32186  (-4.32186)
-390191 John              1.0 -4.35311  (-5.35311)
-324546 Mary              1.0 -3.84317  (-4.84317)
-284758 book              1.0 -2.24139  (-3.24139)
-843051 the               1.0 -2.24139  (-3.24139)
+811688 knows             1.0 -3.62162  (-4.62162)
+324815 knows             1.0      1.0  (     0.0)
+939619 loves             1.0 -4.80466  (-5.80466)
+529323 arrives           1.0      1.0  (     0.0)
+566430 gives             1.0      1.0  (     0.0)
+200157 John              1.0 -4.22596  (-5.22596)
+696836 Mary              1.0 -3.44846  (-4.44846)
+744767 book              1.0      1.0  (     0.0)
+574223 the               1.0      1.0  (     0.0)
 ================================================

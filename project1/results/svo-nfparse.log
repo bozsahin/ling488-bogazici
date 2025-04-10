@@ -1,6 +1,6 @@
 ======= Log file ============
 I am called as: /home/bozsahin/myrepos/thebench/src/bench.train.sh 4000 2000 /var/tmp/thebench/en.gram.src /var/tmp/thebench/en.sup.svo.sup 8 0.5 1.2 /var/tmp/thebench/svo-nfparse nfparse-on
-            at: Thu Apr 10 01:46:25 PM +03 2025
+            at: Thu Apr 10 02:31:55 PM +03 2025
             in: bozsahin-macbookpro111
 Log goes to   : /var/tmp/thebench/svo-nfparse.log
 I will call sbcl as: sbcl --dynamic-space-size 4000
@@ -59,12 +59,12 @@ OOV error: no grammar entry for john! Exiting without parse.
 
 update-model Done.
 Evaluation took:
-  0.023 seconds of real time
-  0.012547 seconds of total run time (0.012547 user, 0.000000 system)
-  56.52% CPU
+  0.030 seconds of real time
+  0.013549 seconds of total run time (0.013549 user, 0.000000 system)
+  46.67% CPU
   6 forms interpreted
-  57,671,070 processor cycles
-  2,029,040 bytes consed
+  69,268,752 processor cycles
+  2,029,072 bytes consed
   
 
 *BEAMP* : NIL
@@ -92,13 +92,13 @@ Model parameters before and after training
 ================================================
 key   elm             initial  final    diff 
 ------------------------------------------------
-987276 knows             1.0      1.0  (     0.0)
-253895 knows             1.0      1.0  (     0.0)
-129907 loves             1.0      1.0  (     0.0)
-816763 arrives           1.0      1.0  (     0.0)
-574030 gives             1.0 -2.60749  (-3.60749)
-390191 John              1.0 .5548381  (-.445162)
-324546 Mary              1.0 .1096761  (-.890324)
-284758 book              1.0 -2.60749  (-3.60749)
-843051 the               1.0 -2.60749  (-3.60749)
+811688 knows             1.0      1.0  (     0.0)
+324815 knows             1.0      1.0  (     0.0)
+939619 loves             1.0      1.0  (     0.0)
+529323 arrives           1.0      1.0  (     0.0)
+566430 gives             1.0      1.0  (     0.0)
+200157 John              1.0      1.0  (     0.0)
+696836 Mary              1.0      1.0  (     0.0)
+744767 book              1.0      1.0  (     0.0)
+574223 the               1.0      1.0  (     0.0)
 ================================================
