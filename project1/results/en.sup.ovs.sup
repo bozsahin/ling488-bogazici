@@ -1,0 +1,47 @@
+(
+;;;;;;;;;; bench.py-generated supervision data
+;;;;;;;;;; from en.sup.ovs April 14, 2025, 10:41:36
+;;
+(
+(|john| |loves| |mary|)
+((love john) mary)
+)
+(
+(|mary| |loves| |john|)
+((love mary) john)
+)
+(
+(|john| |knows| |mary|)
+((know john) mary)
+)
+(
+(|mary| |knows| |john|)
+((know mary) john)
+)
+(
+(|john| |loves| |mary| |knows| |mary|)
+((know ((love john) mary)) mary)
+)
+(
+(|mary| |loves| |john| |knows| |john|)
+((know ((love mary) john)) john)
+)
+(
+(|arrives| |john|)
+(arrive john)
+)
+(
+(|arrives| |mary|)
+(arrive mary)
+)
+(
+(|the| |book| |mary| |gives| |john|)
+(((give mary) (def book)) john)
+)
+(
+(|the| |book| |john| |gives| |mary|)
+(((give john) (def book)) mary)
+)
+;;
+;;;;;;;;;; end of bench.py-generated supervision data
+)

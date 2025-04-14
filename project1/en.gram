@@ -15,8 +15,8 @@ gives | v :: (s\np)/^np/^np : \x.\y.\z.show  x y z % distractor
 
 % NP arguments -- no type-raising
 
-John | n :: np : john
-Mary | n :: np : mary
+john | n :: np : john
+mary | n :: np : mary
 
 % nouns
 

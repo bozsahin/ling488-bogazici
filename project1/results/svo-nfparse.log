@@ -1,12 +1,12 @@
 ======= Log file ============
 I am called as: /home/bozsahin/myrepos/thebench/src/bench.train.sh 4000 2000 /var/tmp/thebench/en.gram.src /var/tmp/thebench/en.sup.svo.sup 8 0.5 1.2 /var/tmp/thebench/svo-nfparse nfparse-on
-            at: Thu Apr 10 03:29:14 PM +03 2025
-            in: bozsahin-macbookpro111
+            at: Mon Apr 14 10:41:36 AM +03 2025
+            in: cem-macmini81
 Log goes to   : /var/tmp/thebench/svo-nfparse.log
 I will call sbcl as: sbcl --dynamic-space-size 4000
 It will call train-nohup-sbcl in /home/bozsahin/myrepos/thebench/src/bench.lisp as: (train-nohup-sbcl "/var/tmp/thebench/en.gram.src" "/var/tmp/thebench/en.sup.svo.sup" 2000 "/var/tmp/thebench/svo-nfparse.8.0.5a.1.2c.src" 8 0.5 1.2)
 =======          ============
-This is SBCL 2.4.11, an implementation of ANSI Common Lisp.
+This is SBCL 2.2.9, an implementation of ANSI Common Lisp.
 More information about SBCL is available at <http://www.sbcl.org/>.
 
 SBCL is free software, provided as is, with absolutely no warranty.
@@ -39,32 +39,14 @@ lisp     : bench.lisp loaded, version 8.0, encoding UTF-8
 
 Supervision file loaded: /var/tmp/thebench/en.sup.svo.sup
 
-OOV error: no grammar entry for john! Exiting without parse.
-
-OOV error: no grammar entry for john! Exiting without parse.
-
-OOV error: no grammar entry for john! Exiting without parse.
-
-OOV error: no grammar entry for john! Exiting without parse.
-
-OOV error: no grammar entry for john! Exiting without parse.
-
-OOV error: no grammar entry for john! Exiting without parse.
-
-OOV error: no grammar entry for john! Exiting without parse.
-
-OOV error: no grammar entry for john! Exiting without parse.
-
-OOV error: no grammar entry for john! Exiting without parse.
-
 update-model Done.
 Evaluation took:
-  0.010 seconds of real time
-  0.013137 seconds of total run time (0.012858 user, 0.000279 system)
-  130.00% CPU
+  0.030 seconds of real time
+  0.016301 seconds of total run time (0.013038 user, 0.003263 system)
+  53.33% CPU
   6 forms interpreted
-  31,541,769 processor cycles
-  4,614,592 bytes consed
+  105,273,004 processor cycles
+  5,280,832 bytes consed
   
 
 *BEAMP* : NIL
@@ -92,18 +74,18 @@ Model parameters before and after training
 ================================================
 key   elm             initial  final    diff 
 ------------------------------------------------
-613263 knows             1.0  2.99431  ( 1.99431)
-448697 knows             1.0 -0.99431  (-1.99431)
-870595 knows             1.0 2.701956  (1.701956)
-566507 knows             1.0 -.701956  (-1.70196)
-789786 loves             1.0 4.324099  (3.324099)
-650697 loves             1.0  -2.3241  ( -3.3241)
-46171 arrives           1.0 2.002233  (1.002233)
-534992 arrives           1.0 -.002233  (-1.00223)
-887953 gives             1.0 2.803744  (1.803744)
-220449 gives             1.0 -.803744  (-1.80374)
-191657 John              1.0      1.0  (     0.0)
-497492 Mary              1.0      1.0  (     0.0)
-978439 book              1.0      1.0  (     0.0)
-514941 the               1.0      1.0  (     0.0)
+498087 knows             1.0  2.99431  ( 1.99431)
+869871 knows             1.0 -0.99431  (-1.99431)
+243683 knows             1.0 2.701956  (1.701956)
+449749 knows             1.0 -.701956  (-1.70196)
+80914 loves             1.0 4.324099  (3.324099)
+348716 loves             1.0  -2.3241  ( -3.3241)
+996358 arrives           1.0 2.002233  (1.002233)
+182499 arrives           1.0 -.002233  (-1.00223)
+196436 gives             1.0 2.803744  (1.803744)
+786788 gives             1.0 -.803744  (-1.80374)
+803023 john              1.0      1.0  (     0.0)
+777413 mary              1.0      1.0  (     0.0)
+243727 book              1.0      1.0  (     0.0)
+264241 the               1.0      1.0  (     0.0)
 ================================================
