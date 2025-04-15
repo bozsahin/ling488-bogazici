@@ -1,12 +1,12 @@
 ======= Log file ============
 I am called as: /home/bozsahin/myrepos/thebench/src/bench.train.sh 7000 4000 /var/tmp/thebench/en.gram.src /var/tmp/thebench/en.sup.ovs.sup 15 1.2 1.0 /var/tmp/thebench/ovs-nonfparse nfparse-off
-            at: Mon Apr 14 10:41:36 AM +03 2025
-            in: cem-macmini81
+            at: Tue Apr 15 02:18:51 PM +03 2025
+            in: bozsahin-macbookpro111
 Log goes to   : /var/tmp/thebench/ovs-nonfparse.log
 I will call sbcl as: sbcl --dynamic-space-size 7000
 It will call train-nohup-sbcl in /home/bozsahin/myrepos/thebench/src/bench.lisp as: (train-nohup-sbcl "/var/tmp/thebench/en.gram.src" "/var/tmp/thebench/en.sup.ovs.sup" 4000 "/var/tmp/thebench/ovs-nonfparse.15.1.2a.1.0c.src" 15 1.2 1.0)
 =======          ============
-This is SBCL 2.2.9, an implementation of ANSI Common Lisp.
+This is SBCL 2.4.11, an implementation of ANSI Common Lisp.
 More information about SBCL is available at <http://www.sbcl.org/>.
 
 SBCL is free software, provided as is, with absolutely no warranty.
@@ -41,12 +41,12 @@ Supervision file loaded: /var/tmp/thebench/en.sup.ovs.sup
 
 update-model Done.
 Evaluation took:
-  0.013 seconds of real time
-  0.012317 seconds of total run time (0.011810 user, 0.000507 system)
-  92.31% CPU
+  0.120 seconds of real time
+  0.044928 seconds of total run time (0.039884 user, 0.005044 system)
+  37.50% CPU
   6 forms interpreted
-  45,436,532 processor cycles
-  5,254,624 bytes consed
+  281,101,050 processor cycles
+  8,375,600 bytes consed
   
 
 *BEAMP* : NIL
@@ -74,18 +74,22 @@ Model parameters before and after training
 ================================================
 key   elm             initial  final    diff 
 ------------------------------------------------
-498087 knows             1.0 -5.77605  (-6.77605)
-869871 knows             1.0 -5.77605  (-6.77605)
-243683 knows             1.0      1.0  (     0.0)
-449749 knows             1.0      1.0  (     0.0)
-80914 loves             1.0 -7.27605  (-8.27605)
-348716 loves             1.0 -7.27605  (-8.27605)
-996358 arrives           1.0      1.0  (     0.0)
-182499 arrives           1.0      1.0  (     0.0)
-196436 gives             1.0      1.0  (     0.0)
-786788 gives             1.0      1.0  (     0.0)
-803023 john              1.0 -13.9633  (-14.9633)
-777413 mary              1.0 -11.6235  (-12.6235)
-243727 book              1.0      1.0  (     0.0)
-264241 the               1.0      1.0  (     0.0)
+765945 knows             1.0 -3.51736  (-4.51736)
+59452 knows             1.0 -3.51736  (-4.51736)
+996413 knows             1.0 10.03473  (9.034727)
+540684 knows             1.0      1.0  (     0.0)
+741855 knows             1.0      1.0  (     0.0)
+305321 knows             1.0      1.0  (     0.0)
+557909 loves             1.0 -4.51736  (-5.51736)
+815505 loves             1.0 -4.51736  (-5.51736)
+703426 loves             1.0 12.03473  (11.03473)
+567479 arrives           1.0      1.0  (     0.0)
+494904 arrives           1.0      1.0  (     0.0)
+168349 gives             1.0      1.0  (     0.0)
+85676 gives             1.0      1.0  (     0.0)
+67205 gives             1.0      1.0  (     0.0)
+492515 john              1.0      1.0  (    -0.0)
+836196 mary              1.0      1.0  (    -0.0)
+785276 book              1.0      1.0  (     0.0)
+59034 the               1.0      1.0  (     0.0)
 ================================================

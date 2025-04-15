@@ -1,17 +1,24 @@
-% mini grammar for English assuming it is SVO
+% mini grammar for English
+% distractors are e.g for confusing hit and know, etc.
+% Whether this grammar converges to SVO categories or OVS
+%   categories depends on the training data.
 
 % verbs  
 
-knows | v :: (s\np)/^np : \x\y.know x y
+knows | v :: (s\np)/^np : \x\y.know x y  % SVO
 knows | v :: (s\np)/^np : \x\y.hit x y % distractor
-knows | v :: (s\np)/^s : \s\x.know s x
+knows | v :: (s\np)/^np : \y\x.know x y  % OVS
+knows | v :: (s\np)/^s : \s\x.know s x  % SVO
 knows | v :: (s\np)/^s : \s\x.see s x % distractor
-loves | v :: (s\np)/^np : \x\y.love x y
+knows | v :: (s\np)/^s : \x\s.know s x % OVS
+loves | v :: (s\np)/^np : \x\y.love x y  % SVO
 loves | v :: (s\np)/^np : \x\y.say x y % distractor
+loves | v :: (s\np)/^np : \y\x.love x y % OVS
 arrives | v :: s\np : \z.arrive z
 arrives | v :: s\np : \z.walk z % distractor
-gives | v :: (s\np)/^np/^np : \x.\y.\z.give  x y z
+gives | v :: (s\np)/^np/^np : \x.\y.\z.give  x y z  % SVO2O1
 gives | v :: (s\np)/^np/^np : \x.\y.\z.show  x y z % distractor
+gives | v :: (s\np)\^np/^np : \x.\y.\z.give  y z x % O1O2VS
 
 % NP arguments -- no type-raising
 
