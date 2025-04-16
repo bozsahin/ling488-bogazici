@@ -6,5 +6,7 @@ mary knows  john  loves mary : know (love mary john) mary
 john knows mary loves john  : know (love john mary) john
 john arrives : arrive john
 mary arrives : arrive mary
+john walks : walk john
+mary walks : walk mary
 john gives mary the book : give mary (def book) john
 mary gives john the book : give john (def book) mary

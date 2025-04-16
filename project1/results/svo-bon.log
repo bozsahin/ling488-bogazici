@@ -1,6 +1,6 @@
 ======= Log file ============
 I am called as: /home/bozsahin/myrepos/thebench/src/bench.train.sh 4000 2000 /var/tmp/thebench/en.gram.src /var/tmp/thebench/en.sup.svo.sup 10 0.5 1.1 /var/tmp/thebench/svo-bon beam-on
-            at: Tue Apr 15 02:18:51 PM +03 2025
+            at: Wed Apr 16 08:36:09 AM +03 2025
             in: bozsahin-macbookpro111
 Log goes to   : /var/tmp/thebench/svo-bon.log
 I will call sbcl as: sbcl --dynamic-space-size 4000
@@ -41,12 +41,12 @@ Supervision file loaded: /var/tmp/thebench/en.sup.svo.sup
 
 update-model Done.
 Evaluation took:
-  0.056 seconds of real time
-  0.038953 seconds of total run time (0.038953 user, 0.000000 system)
-  69.64% CPU
+  0.253 seconds of real time
+  0.077613 seconds of total run time (0.077258 user, 0.000355 system)
+  30.83% CPU
   6 forms interpreted
-  138,378,924 processor cycles
-  7,916,960 bytes consed
+  609,254,538 processor cycles
+  8,278,112 bytes consed
   
 
 *BEAMP* : T
@@ -69,27 +69,29 @@ Evaluation took:
 *FX2-COMP* T
 *FX3-COMP* T
 *T-APPLY* T
-Training parameters: N = 10 alpha0 = 0.5 c = 1.1 n = 10  
+Training parameters: N = 10 alpha0 = 0.5 c = 1.1 n = 12  
 Model parameters before and after training
 ================================================
 key   elm             initial  final    diff 
 ------------------------------------------------
-765945 knows             1.0  4.08108  ( 3.08108)
-59452 knows             1.0 -0.54054  (-1.54054)
-996413 knows             1.0 -0.54054  (-1.54054)
-540684 knows             1.0      1.0  (     0.0)
-741855 knows             1.0      1.0  (     0.0)
-305321 knows             1.0      1.0  (     0.0)
-557909 loves             1.0  4.86977  ( 3.86977)
-815505 loves             1.0 -.934885  (-1.93489)
-703426 loves             1.0 -.934885  (-1.93489)
-567479 arrives           1.0 2.188956  (1.188956)
-494904 arrives           1.0 -.188956  (-1.18896)
-168349 gives             1.0 3.160928  (2.160928)
-85676 gives             1.0 -1.16093  (-2.16093)
-67205 gives             1.0      1.0  (     0.0)
-492515 john              1.0      1.0  (    -0.0)
-836196 mary              1.0      1.0  (    -0.0)
-785276 book              1.0      1.0  (     0.0)
-59034 the               1.0      1.0  (     0.0)
+85386 knows             1.0 4.244718  (3.244718)
+310983 knows             1.0 -.622359  (-1.62236)
+527160 knows             1.0 -.622359  (-1.62236)
+775215 knows             1.0      1.0  (     0.0)
+971692 knows             1.0      1.0  (     0.0)
+365561 knows             1.0      1.0  (     0.0)
+528289 loves             1.0 5.033408  (4.033408)
+688086 loves             1.0  -1.0167  ( -2.0167)
+154822 loves             1.0  -1.0167  ( -2.0167)
+611411 arrives           1.0 2.270775  (1.270775)
+76351 arrives           1.0 -.270775  (-1.27077)
+607079 walks             1.0 2.162283  (1.162283)
+707786 walks             1.0 -.162283  (-1.16228)
+825539 gives             1.0 3.149489  (2.149489)
+48959 gives             1.0 -1.14949  (-2.14949)
+482416 gives             1.0      1.0  (     0.0)
+51563 john              1.0      1.0  (    -0.0)
+23781 mary              1.0      1.0  (    -0.0)
+332560 book              1.0      1.0  (     0.0)
+273523 the               1.0      1.0  (     0.0)
 ================================================

@@ -1,6 +1,6 @@
 (
 ;;;;;;;;;; bench.py-generated supervision data
-;;;;;;;;;; from en.sup.svo April 15, 2025, 14:18:51
+;;;;;;;;;; from en.sup.svo April 16, 2025, 08:36:09
 ;;
 (
 (|john| |loves| |mary|)
@@ -33,6 +33,14 @@
 (
 (|mary| |arrives|)
 (arrive mary)
+)
+(
+(|john| |walks|)
+(walk john)
+)
+(
+(|mary| |walks|)
+(walk mary)
 )
 (
 (|john| |gives| |mary| |the| |book|)
