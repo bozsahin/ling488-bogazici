@@ -1,0 +1,102 @@
+i am not sure : not (sure i)
+i am busy : busy i
+because i am busy : because (busy i)
+i am making lunch : make lunch i
+i am going upstairs : go upstairs i
+i am not sure : not (sure i)
+i am not sure : not (sure i)
+i am going-to cook it : gng (cook it i)
+i am using it : use it i
+i am making bouillon for papa : make (bouillon (for papa)) i
+i am sorry : sorry i
+i am going into the bank : go (into (the bank)) i
+i am going along : go along i
+what am i doing now ? : q what (\x . do x i) now
+what am i doing ? : q what (\x . do x i)
+i am going too with you : go too (with you) i
+what am i doing ? : q what (\x . do x i)
+what am i doing ? : q what (\x . do x i)
+what am i doing ? : q what (\x . do x i)
+i am sorry : sorry i
+i am trying : try i
+what am i doing ? : q what (\x . do x i)
+what am i pouring for them ? : q what (\x . pour x (for them) i)
+i am sorry : sorry i
+what am i folding ? : q what (\x . fold x i)
+what am i gonna do ? : q what (\x . gng (do x i))
+what am i doing ? : q what (\x . do x i)
+i am sorry : sorry i
+what am i doing ? : q what (\x . do x i)
+i am going-to do it : gng (do it i)
+i am awfully glad : (glad awfully) i
+what am i doing ? : q what (rt (\x . do x i))
+i am making coffee :  make coffee i
+i am getting sarah some rattles :  get sarah (some (pl rattle)) i
+i am glad : glad i
+i am sorry : sorry i
+what am i doing ? : q what (\x . do x i)
+i am eating lobster-salad too :  eat lobster-salad too i
+what am i drawing ? : q what (\x . draw x i)
+i am sorry : sorry i
+i am giving you some noodles :  give you (some (pl noodle)) i
+i am almost finished too : (finished almost) too i
+what am i drinking ? : q what (\x . drink x i)
+and what am i pulling ? : and (q what (\x . pull x i))
+what am i pulling ? : q what (\x . pull x i)
+i am drawing something else for you now : ( draw something else (for you) i) now
+i am sorry : sorry i
+i am not ? : not i
+i am not a boy : not ((a boy) i)
+i am sorry : sorry i
+i am hungry too : hungry too i
+i am going outside :  go outside i
+i am terribly sorry : (sorry terribly) i
+i am sorry : sorry i
+i am eating it :  eat it i
+i am sorely disappointed : (disappointed sorely) i
+i am sorry : sorry i
+i am sorry : sorry i
+i am awfully sorry : (sorry awfully) i
+i am sorry : sorry i
+i am gonna cook it : gng (cook it i)
+i am gonna cook it : gng (cook it i)
+i am going-to cook it : gng (cook it i)
+i am not doing anything : not ( do anything i)
+i am going upstairs :  go upstairs i
+i am glad : glad i
+i am sorry : sorry i
+i am holding the ball :  hold (the ball) i
+i am busy : busy i
+i am not cromer : not (cromer i)
+i am fraser : fraser i
+i am fraser : fraser i
+i am cracking the nuts :  crack (the (pl nut)) i
+i am cracking the nuts :  crack (the (pl nut)) i
+i am cracking the nuts :  crack (the (pl nut)) i
+i am sorry : sorry i
+i am almost finished : (finished almost) i
+i am almost finished : (finished almost) i
+but i am almost finished : but ((finished almost) i)
+i am making orange-peel :  make orange-peel i
+i am sorry : sorry i
+i am not sure : not (sure i)
+i am making cookies :  make (pl cookie) i
+i am sorry : sorry i
+i am decorating the cookies :  decorate (the (pl cookie)) i
+i am putting icing on them :  put icing (on them) i
+i am icing the cookies :  ice (the (pl cookie)) i
+i am not going away : not ( go away i)
+i am shoving some pans around :  shove (some (pl pan)) around i
+what am i doing ? : q what (\x . do x i)
+i am not sure : not ( sure i)
+what am i doing now ? : q what (\x . do x i) now
+i am sorry : sorry i
+i am glad : glad i
+what am i doing ? : q what (\x . do x i)
+what am i doing ? : q what (\x . do x i)
+i am coming down :  come down i
+i am rocking sarah :  rock sarah i
+what am i doing ? : q what (\x . do x i)
+i am sorry : sorry i
+i am eating mine :  eat mine i
+i am not having fruit : not ( have fruit i)
