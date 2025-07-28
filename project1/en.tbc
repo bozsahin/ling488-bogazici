@@ -1,5 +1,0 @@
-pass train en.gram on first SVO supervision, second, OVS supervision
-t en.gram en.sup.svo en.svo.exp
-pass the following t command reloads en.gram so parameters are reset 
-pass   before training.
-t en.gram en.sup.ovs en.ovs.exp
