@@ -1,0 +1,8 @@
+mary promised john to study : promise (study mary) john mary
+mary persuaded john to study: persuade (study john) john mary
+mary expected john to study : expect (study john) mary
+mary seemed to like john    : seem (like john mary)
+john arrived : arrive john
+mary arrived : arrive mary
+mary respected john: respect john mary
+john respected mary: respect mary john
