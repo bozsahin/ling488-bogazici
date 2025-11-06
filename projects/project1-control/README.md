@@ -1,1 +1,1 @@
-We will study the semantic effect of ranking while being exposed to very similar syntax in control.
+We will start with simple analyses without model training.
