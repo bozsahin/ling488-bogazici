@@ -34,7 +34,7 @@ WHAT TO DO FOR THE PROJECT:
 
 First, prepare a GROUP file, and write in it briefly who did what and your answers to the questions below.
 
-PART I
+PART I.
 
 0. Start logging your work when you are ready for submission. Use the >-command for that.
 
