@@ -68,20 +68,38 @@ PART I
 
 11. Is it the correct analysis? Is the verbal category that is used in it the correct one? Write your answers to GROUP as answer to I.11.
 
+---------------
+
 PART II.
 
 1. Now we are going to turn English to an SOV language and see if that favors other categories for the verbs. Note that
-   argument categories in the grammar are all ready for the experiment. 
+   argument categories in the grammar are all ready for the experiment.  In fact, the grammar file needs no change, just the new data. To do that, first edit the p2sov.gold file.
 
-1.1 To do that, design another gold pairings of this would-be English where expressions are SOV. Call it p2sov.gold.
-
-1.2 Load the grammar file and analyze this would-be expression:
+2. Load the grammar file and analyze this would-be English expression:
 
     a roger grace likes
 
-1.3 Check out its analysis with the ,-command. Is it correct for the would-be English? Why (not)? Write your answer in the GROUP file as answer to II.the grammar file and analyze this would-be expression:
+3. Check out its analysis with the ,-command. Is it correct for the would-be English? Why (not)? Write your answer in the GROUP file as answer to II.3.
 
-    a roger grace likes
+4. Now train the same grammar with the alternative gold data and the other experiment file:
 
-1.3 Check out its analysis with the ,-command. Is it correct for the would-be English? Why (not)? Write your answer in the GROUP file as answer to II.1.3.
+    t p2.g p2sov.gold p2sov.exp
 
+5. Take a look at the temporary files directory to spot the trained grammar. Use the ;-command for that. The trained grammar has the prefix p2on-sov and
+the suffix .src
+
+6. Use z-command to load that grammar for anaysis and ranking:
+
+    z filename
+
+7.  Rank the same expression above:
+
+    r roger grace likes
+
+8. Use #-command to check the result. Is it the correct analysis? Why (not)? Write it as answer to II.8.
+
+Wrap up: Bundle your log file, and the updated p2sov.gold file and submit as one file.
+
+9. Grading: Your answers saved in GROUP count as hw3, worth 2.5%. The total comes to 17.5%.
+
+10. Now get some sleep.
