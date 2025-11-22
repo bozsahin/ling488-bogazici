@@ -36,7 +36,7 @@ First, prepare a GROUP file, and write in it briefly who did what and your answe
 
 PART I
 
-0. Start logging your work when you are preparing the submission. Use the >-command for that.
+0. Start logging your work when you are ready for submission. Use the >-command for that.
 
 1. Load the grammar before training using the g-command.
 
@@ -52,7 +52,7 @@ PART I
 
     t p2.g p2.gold p2.exp
 
-6. Wait for training to finish. 
+6. Wait for training to finish. Should take less than a minute.
 
 7. Look at the temporary files directory using the ;-command. The most recent file with the prefix p2on and suffix .src is the trained grammar.
 
@@ -98,7 +98,7 @@ the suffix .src
 
 8. Use #-command to check the result. Is it the correct analysis? Why (not)? Write it as answer to II.8.
 
-Wrap up: Bundle your log file, and the updated p2sov.gold file and submit as one file.
+Wrap up: Bundle your log file and the updated p2sov.gold file; submit as ONE zip file.
 
 9. Grading: Your answers saved in GROUP count as hw3, worth 2.5%. The total comes to 17.5%.
 
