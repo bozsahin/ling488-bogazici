@@ -10,11 +10,11 @@ There are four project files in this repository:
 
 - p2.gold : a set of form:meaning correspondences to train the grammar file
 
-- p2.exp : the experiment file. This file contains how many models we build, and how. 
+- p2.exp : the experiment file. This file contains information about how many models we build, and how. 
 
 - p2sov.exp : the other experiment file.
 
-For simplicity, in project 2 we will build one model, hence there will be no model selection (that's project 3;).
+For simplicity, in project 2 we will build just ONE model, hence there will be no model selection (that's project 3;).
 
 The grammar file contains all possibilities of command relations for one transitive and one intransitive verb.
 
