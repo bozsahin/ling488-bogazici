@@ -110,6 +110,6 @@ on what you think about this, as an answer to II.9.
 
 Wrap up: Bundle your log file, GROUP file, and the updated p2sov.gold file; submit as ONE zip file.
 
-9. Grading: Your answers saved in GROUP count as hw3, worth 2.5%. The total comes to 17.5%.
+-- Grading: Your answers saved in GROUP count as hw3, worth 2.5%. The total comes to 17.5%.
 
-10. Now get some sleep.
+-- Now get some sleep.
