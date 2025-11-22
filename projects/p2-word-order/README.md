@@ -68,6 +68,10 @@ PART I
 
 11. Is it the correct analysis? Is the verbal category that is used in it the correct one? Write your answers to GROUP as answer to I.11.
 
+12. If you look at the training logs (the files with same name as .src files but with suffix .log), you will see that more
+than one verbal category increases in the parameter value although the gold data is favoring only one. Briefly comment
+on what you think about this, as an answer to I.12.
+
 ---------------
 
 PART II.
@@ -97,8 +101,14 @@ the suffix .src
     r roger grace likes
 
 8. Use #-command to check the result. Is it the correct analysis? Why (not)? Write it as answer to II.8.
+ 
+9. If you look at the training logs (the files with same name as .src files but with suffix .log), you will see that more
+than one verbal category increases in the parameter value although the gold data is favoring only one. Briefly comment
+on what you think about this, as an answer to II.9.
 
-Wrap up: Bundle your log file and the updated p2sov.gold file; submit as ONE zip file.
+10. Turn off logging using the <-command.
+
+Wrap up: Bundle your log file, GROUP file, and the updated p2sov.gold file; submit as ONE zip file.
 
 9. Grading: Your answers saved in GROUP count as hw3, worth 2.5%. The total comes to 17.5%.
 
