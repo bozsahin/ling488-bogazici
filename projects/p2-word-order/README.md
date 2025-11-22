@@ -1,7 +1,7 @@
 In this project, we do a mini experiment to study whether any basic word order is learnable from exposure.
 
 The idea is to have all options in the grammar beforehand as predicted by a theory, and have the exposure
-sort out their basicness by taking some form: meaning correspondences as neutral way of expressing who does
+sort out their basicness by taking some form: meaning correspondences as neutral ways of expressing who does
 what to whom. This 'gold' data is unannotated, it does not have labels. All we have is a form and what we think it means.
 
 There are four project files in this repository:
@@ -32,11 +32,11 @@ The experiment file is an instruction to TheBench to how to run training. Its fo
 
 WHAT TO DO FOR THE PROJECT:
 
-First, prepare a GROUP file, and write in it who did what and your answers to the questions below.
+First, prepare a GROUP file, and write in it briefly who did what and your answers to the questions below.
 
 PART I
 
-0. Start logging your work when you are preparing submit copy. Use the >-command for that.
+0. Start logging your work when you are preparing the submission. Use the >-command for that.
 
 1. Load the grammar before training using the g-command.
 
@@ -73,7 +73,7 @@ PART I
 PART II.
 
 1. Now we are going to turn English to an SOV language and see if that favors other categories for the verbs. Note that
-   argument categories in the grammar are all ready for the experiment.  In fact, the grammar file needs no change, just the new data. To do that, first edit the p2sov.gold file.
+   argument categories in the grammar are all ready for the experiment.  In fact, the grammar file needs no change, just the new data. To do that, first edit the p2sov.gold file and change expressions to would-be SOV English with SV intransitives.
 
 2. Load the grammar file and analyze this would-be English expression:
 
@@ -88,7 +88,7 @@ PART II.
 5. Take a look at the temporary files directory to spot the trained grammar. Use the ;-command for that. The trained grammar has the prefix p2on-sov and
 the suffix .src
 
-6. Use z-command to load that grammar for anaysis and ranking:
+6. Use z-command to load that grammar for analysis and ranking:
 
     z filename
 
