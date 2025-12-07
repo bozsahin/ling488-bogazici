@@ -1,6 +1,8 @@
 pass Testing the success of Eve's grammar from CDS using current grammar
 pass Load current grammar (cf. paratemers wrt to initial grammar)
 g eve.gram.current
+pass Lets see the vital stats
+!
 pass Log the output to see the difference in analysis and ranking
 pass Every eve sup data is run with a-command and r-command
 > eve.give.check.current force
