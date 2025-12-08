@@ -1,0 +1,31 @@
+he gave you your telephone : give you (your telephone) he
+give dolly her bottle : imp (give dolly (her bottle) interlocutor)
+give me the cheese : imp (give me (the cheese) interlocutor)
+give the man a cracker ? : q (give (the man) (a cracker) interlocutor)
+give me the pencils : imp (give me (the (pl pencil)) interlocutor)
+give me the pencils : imp (give me (the (pl pencil)) interlocutor)
+you give me the pencil : give me (the pencil) you
+you give me the pencils : give me (the (pl pencil)) you
+give me the crayons : imp  (give me (the (pl crayon)) interlocutor)
+give me the crayons : imp (give me (the (pl crayon)) interlocutor)
+you give me the crayons : give me (the (pl crayon)) you
+give me the pegs : imp (give me (the (pl peg)) interlocutor)
+you give me the pencils : give me (the (pl pencil)) you
+we will give him a rest : (give him (a rest) we)
+i will give you the duck : (give you (the duck) i)
+giving sarah some milk : (\z . give sarah (some milk) z)
+joanne gave you that bibbie : give you (that bibbie) joanne
+she gave you that :  give you that she
+i am giving you some noodles :  give you (some (pl noodle)) i
+give papa a kiss : imp  (give papa (a kiss) interlocutor)
+papa might give you a cracker : might (give you (a cracker) papa)
+you will give the horse indigestion : give (the horse) indigestion you
+i will give him more coffee : give him (more coffee) i
+i will give you more tapioca : give you (more tapioca) i
+we will give you some bottle : give you (some bottle) we
+we will give you some bottle : give you (some bottle) we
+we will give you some bottle : give you (some bottle) we
+is he giving giraffe hay ? : q ( give giraffe hay he)
+is he giving hay giraffe ? : q ( give hay giraffe he)
+is he giving the elephant bread ? : q ( give (the elephant) bread he)
+is he giving bread elephant ? : q ( give bread elephant he)

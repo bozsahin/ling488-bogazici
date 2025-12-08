@@ -22,3 +22,6 @@ Eve-directed speech from CHILDES. The files in this folder are:
 
 - eve.give.sup.check.tbc : contains TheBench commands for doing PART I below.
 
+PART I:
+
+In this part you assess the empirical success of training done beforehand. 

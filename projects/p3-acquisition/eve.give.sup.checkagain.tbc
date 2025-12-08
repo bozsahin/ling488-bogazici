@@ -1,0 +1,134 @@
+pass Testing the success of Eve's grammar from CDS using current grammar
+pass load a grammar 
+g p3-m2.10.2.84a.0.7c.src.235315.txt
+pass Lets see the vital stats
+!
+pass Log the output to see the difference in analysis and ranking
+pass Every eve sup data is run with a-command and r-command
+> eve.give.check.165293 force
+a he gave you your telephone
+, 1
+r he gave you your telephone
+#
+a give dolly her bottle 
+, 1
+r give dolly her bottle 
+#
+a give me the cheese 
+, 1
+r give me the cheese 
+#
+a give the man a cracker ? 
+, 1
+r give the man a cracker ? 
+#
+a give me the pencils 
+, 1
+r give me the pencils 
+#
+a give me the pencils 
+, 1
+r give me the pencils 
+#
+a you give me the pencil 
+, 1
+r you give me the pencil 
+#
+a you give me the pencils 
+, 1
+r you give me the pencils 
+#
+a give me the crayons 
+, 1
+r give me the crayons 
+#
+a give me the crayons 
+, 1
+r give me the crayons 
+#
+a you give me the crayons 
+, 1
+r you give me the crayons 
+#
+a give me the pegs 
+, 1
+r give me the pegs 
+#
+a you give me the pencils 
+, 1
+r you give me the pencils 
+#
+a we will give him a rest 
+, 1
+r we will give him a rest 
+#
+a i will give you the duck 
+, 1
+r i will give you the duck 
+#
+a giving sarah some milk 
+, 1
+r giving sarah some milk 
+#
+a joanne gave you that bibbie 
+, 1
+r joanne gave you that bibbie 
+#
+a she gave you that 
+, 1
+r she gave you that 
+#
+a i am giving you some noodles 
+, 1
+r i am giving you some noodles 
+#
+a give papa a kiss 
+, 1
+r give papa a kiss 
+#
+a papa might give you a cracker 
+, 1
+r papa might give you a cracker 
+#
+a you will give the horse indigestion 
+, 1
+r you will give the horse indigestion 
+#
+a i will give him more coffee 
+, 1
+r i will give him more coffee 
+#
+a i will give you more tapioca 
+, 1
+r i will give you more tapioca 
+#
+a we will give you some bottle 
+, 1
+r we will give you some bottle 
+#
+a we will give you some bottle 
+, 1
+r we will give you some bottle 
+#
+a we will give you some bottle 
+, 1
+r we will give you some bottle 
+#
+a is he giving giraffe hay ? 
+, 1
+r is he giving giraffe hay ? 
+#
+a is he giving hay giraffe ? 
+, 1
+r is he giving hay giraffe ? 
+#
+a is he giving the elephant bread ? 
+, 1
+r is he giving the elephant bread ? 
+#
+a is he giving bread elephant ? 
+, 1
+r is he giving bread elephant ? 
+#
+pass turn off logging
+<
