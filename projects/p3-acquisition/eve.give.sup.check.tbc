@@ -5,7 +5,7 @@ pass Lets see the vital stats
 !
 pass Log the output to see the difference in analysis and ranking
 pass Every eve sup data is run with a-command and r-command
-> eve.give.check.current force
+> eve.give.check.current.run force
 a he gave you your telephone
 , 1
 r he gave you your telephone
