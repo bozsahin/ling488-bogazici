@@ -1,30 +1,30 @@
-gIn this project we look at some real data from CHILDES database, Eve fragment. We will
+In this project we look at some real data from CHILDES database, from its Eve fragment. We will
 study the effect of training on a grammar for Eve. 
 
 The grammar in the folder makes all Eve-directed utterances parsable. The key to its empirical success would be how good it makes
 supervision data the most likely after training. The untrained grammar is VERY unlikely to make
 the correct analysis the MOST likely one. That is what training is for in this project. 
 
-In short, from valid models we are trying to pick the most likely candidate model if we can. We are going to do that by inspection.
+In short, from valid models we are trying to pick the most likely candidate model if we can. We are going to do that by manual inspection (sorry).
 
 This grammar is developed by us, Seda Demirel and Cem Bozsahin. It is based on 5k plus
 Eve-directed speech from CHILDES. The files in this folder are:
 
-- eve.gram.initial : contains Eve grammar before the start of experiments. All parameter values are same. Note explicit mention of that in the file.
+- eve.gram.initial : contains Eve grammar before the start of experiments. All parameter values are same. Note explicit statement of that in the file.
 
 - eve.gram.current : contains a grammar model which is considered good after training. Note that parameters values are not default. This is the input to Part I below.
 
-- eve.give.sup : contains Eve-directed speech involving new uses of the verb 'give'. Older encounters with 'give' have already been reflected in eve.gram.current. You can check it yourself that this was not part of training. The original that went into training is
+- eve.give.sup : contains Eve-directed speech involving new uses of the verb 'give'. Older encounters with 'give' have already been reflected in eve.gram.current. You can check it yourself that this was not part of training. The original that went into early training is
 in eve.give.orig.sup. I will show in class the full set of Eve data.
 
 - eve.exp : contains values for further experimentation (by you).
 
 - eve.give.sup.check.tbc : contains TheBench commands for doing PART I below.
 
-- eve.give.sup.checkagain.tbc : contains TheBench command for doing PART II below.
+- eve.give.sup.checkagain.tbc : contains TheBench commands for doing PART II below.
 
 - p3-m2.10.2.84a.0.7c.src.235315.txt : one PART II model i chose in doing PART II.
-  The file above, eve.give.sup.checkagain.tbc, loads this grammar.
+  The file above, eve.give.sup.checkagain.tbc, loads this grammar. You will udpate this file with your own grammar name.
 
 - GROUP file: the group, who did what, and your answers below. You create this one.
 
@@ -37,8 +37,8 @@ In this part you assess the empirical success of training done beforehand.
 @ eve.give.sup.check.tbc part1
 
 This will create a file named part1.log. If you look at the .tbc file, you will
-see that it loads a current grammar of Eve, then uses a-command and r-command to
-see analyses and ranking of every entry in eve.give.sup. 
+see that it loads the current grammar of Eve, then uses a-command and r-command to
+see analyses and ranking of every entry in eve.give.orig.sup. 
 
 2. Your task, should you choose to accept it, is to see if the ranking results in part1.log match the intended meaning of the same expression in eve.give.orig.sup.
 Why checking against this file?  Because we have not done the further training and consequent model selection yet. That is Part II.
