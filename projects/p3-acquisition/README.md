@@ -62,9 +62,9 @@ will take the files  from /var/tmp/thebench, add a random number and the .txt su
 
 3. Update the eve.give.sup.checkagain.tbc before you run it. The grammar it loads
    must be one of the .txt files you generated in the previous step. If you like
-   you can create 3 different copies of the  eve.give.sup.checkagain.tbc file, one for each grammar name. Don't forget to update the grammar file name in it.
+   you can create 3 different copies of the  eve.give.sup.checkagain.tbc file, one for each grammar name. Don't forget to update the grammar file name in them.
 
-4. Run the .tbc file(s) to see the new performance conpared to PART I. It is the same data but with new parameter values because of further training.
+4. Run the .tbc file(s) to see the new performance compared to PART I. It is the same data but with new parameter values because of further training.
 
 I suggest you run them as 3 different commands, say
 
