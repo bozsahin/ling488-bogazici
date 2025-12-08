@@ -81,4 +81,6 @@ assuming you named them as above. These will create part2.1.log, part2.2.log, pa
 6. Reflection: Have you noticed changes in ranking? [at least take a look at examples with 'giving']. Would you choose one of  the three new models based on that? You will be comparing FOUR models, one you assesed in PART I, three you obtained in PART II. Be brief.
 Write this as answer to II.6.
 
+7. Bundle your .log files and GROUP file as .zip, and submit. I don't need others.
+
 Done. Kinda fun, innit?
