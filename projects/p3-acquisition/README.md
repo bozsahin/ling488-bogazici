@@ -10,21 +10,22 @@ In short, from valid models we are trying to pick the most likely candidate mode
 This grammar is developed by us, Seda Demirel and Cem Bozsahin. It is based on 5k plus
 Eve-directed speech from CHILDES. The files in this folder are:
 
-- eve.gram.initial : contains Eve grammar before the start of experiments. All parameter values are same. Note explicit statement of that in the file.
+- eve.gram.initial : contains Eve grammar before the start of experiments. All parameter values are same. All are set to 1.0 in this file.
 
-- eve.gram.current : contains a grammar model which is considered good after training. Note that parameters values are not default. This is the input to Part I below.
+- eve.gram.current : contains a grammar model which is considered good after training. 
+This training was done over the entire Eve database. Note that parameters values are not default. This is the input to Part I below.
 
-- eve.give.sup : contains Eve-directed speech involving new uses of the verb 'give'. Older encounters with 'give' have already been reflected in eve.gram.current. You can check it yourself that this was not part of training. The original that went into early training is
-in eve.give.orig.sup. I will show in class the full set of Eve data.
+- eve.give.sup : contains Eve-directed speech involving NEW uses of the verb 'give'. Older encounters with 'give' have already been reflected in eve.gram.current. You can check it yourself that this was not part of training. The original that went into early training is
+in eve.give.orig.sup. I will show in class the full set of Eve database.
 
 - eve.exp : contains values for further experimentation (by you).
 
-- eve.give.sup.check.tbc : contains TheBench commands for doing PART I below.
+- eve.part1.tbc : contains TheBench commands for doing PART I below.
 
-- eve.give.sup.checkagain.tbc : contains TheBench commands for doing PART II below.
+- eve.part2.tbc : contains TheBench commands for doing PART II below.
 
 - p3-m2.10.2.84a.0.7c.src.235315.txt : one PART II model i chose in doing PART II.
-  The file above, eve.give.sup.checkagain.tbc, loads this grammar. You will udpate this file with your own grammar name.
+  The file above, eve.part2.tbc, loads this grammar. You will update this file with your own grammar name.
 
 - GROUP file: the group, who did what, and your answers below. You create this one.
 
@@ -34,7 +35,7 @@ In this part you assess the empirical success of training done beforehand.
 
 1. Run the @-command in TheBench to see get some results before model selection, like
 
-@ eve.give.sup.check.tbc part1
+@ eve.part1.tbc part1
 
 This will create a file named part1.log. If you look at the .tbc file, you will
 see that it loads the current grammar of Eve, then uses a-command and r-command to
@@ -60,19 +61,19 @@ There are three experiments in eve.exp. The results for each experiment are name
 2. Make the three .src files loadable again by running the z-command. This
 will take the files  from /var/tmp/thebench, add a random number and the .txt suffix to their name. Now these files are in your working directory.
 
-3. Update the eve.give.sup.checkagain.tbc before you run it. The grammar it loads
+3. Update the eve.part2.tbc before you run it. The grammar it loads
    must be one of the .txt files you generated in the previous step. If you like
-   you can create 3 different copies of the  eve.give.sup.checkagain.tbc file, one for each grammar name. Don't forget to update the grammar file names in them.
+   you can create 3 different copies of the  eve.part2.tbc file, one for each grammar name. Don't forget to update the grammar file names in them.
 
 4. Run the .tbc file(s) to see the new performance compared to PART I. It is the same data but with new parameter values because of further training.
 
 I suggest you run them as 3 different commands, say
 
-@ eve.give.sup.checkagain1.tbc part2.1
+@ eve.part2.1.tbc part2.1
 
-@ eve.give.sup.checkagain2.tbc part2.2
+@ eve.part2.2.tbc part2.2
 
-@ eve.give.sup.checkagain3.tbc part2.3
+@ eve.part2.3.tbc part2.3
 
 assuming you named them as above. These will create part2.1.log, part2.2.log, part2.3.log.
 
