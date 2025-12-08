@@ -33,7 +33,7 @@ PART I:
 
 In this part you assess the empirical success of training done beforehand. 
 
-1. Run the @-command in TheBench to see get some results before model selection, like
+1. Run the @-command in TheBench to get some results before model selection:
 
 @ eve.part1.tbc part1
 
